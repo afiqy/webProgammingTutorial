@@ -19,5 +19,5 @@
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.php [L]
 	#Alternate default index page
-	DirectoryIndex kamekpun.html
+	DirectoryIndex kamekpun.php
 </IfModule>

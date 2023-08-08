@@ -19,5 +19,5 @@
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.php [L]
 	#Alternate default index page
-	DirectoryIndex maziah_web.html
+	DirectoryIndex maziah_web.php
 </IfModule>

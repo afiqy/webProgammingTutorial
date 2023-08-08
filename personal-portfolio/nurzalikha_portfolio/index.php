@@ -28,6 +28,7 @@ p {line-height: 2}
 </head>
 <body>
 
+<?php include "../back-button.html" ?>
 <!-- Header / Home-->
 <header class="w3-display-container w3-wide bgimg w3-grayscale-min" id="home">
   <div class="w3-display-middle w3-text-white w3-center">

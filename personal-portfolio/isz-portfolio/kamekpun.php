@@ -9,6 +9,7 @@
 </head>
 
 <body>
+	<?php include "../back-button.html" ?>
 	<!--Header(start)-->
 	<table id="header" border="0" width="100%"
 		cellpadding="0" cellspacing="0" bgcolor="#999999">
@@ -327,7 +328,7 @@
 						</td>
 
 						<td width="45%">
-							<img src="img.png" alt="Project" width="75%">
+							<img src="1.JPG" alt="Project" width="75%">
 						</td>
 					</tr>
 				</table>

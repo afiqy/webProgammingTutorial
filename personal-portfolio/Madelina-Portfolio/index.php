@@ -76,6 +76,7 @@ html {
 </head>
 <body>
 
+	<?php include "../back-button.html" ?>
 <div class="about-section">
   <img src="cartoon 0.jpg" width="250" height="300">
   <h1>Hi, I'm Madelina Ngau</h1>

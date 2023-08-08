@@ -9,6 +9,7 @@
 </head>
 
 <body>
+	<?php include "../back-button.html" ?>
 	<!--Header(start)-->
 	<table id="header" border="0" width="100%"
 		cellpadding="0" cellspacing="0" bgcolor="#FFD700">
