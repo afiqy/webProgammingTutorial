@@ -3,13 +3,12 @@
     <head>
     </head>
     <body>
-        <a href="../../index.html" style="background: url(../../assets/img/arrow-back.png) no-repeat center;
-        height: 50px;
-        width: 50px;
-        position: fixed;
-        background-size: contain;
-        margin-left: 10px;
-        margin-top: 10px;
-        z-index: 999"></a>
+        <a href="../../index.html" style="background: url(../../assets/img/arrow-back.png) no-repeat center; height: 50px; width: 50px; position: fixed; background-size: contain;  margin-left: 10px;  margin-top: 10px; z-index: 999; display: flex;" onmouseover="this.style.background = 'background: url(../../assets/img/arrow-back-white.png) no-repeat center'"></a>
+
+        <style>
+            .backButton :hover {
+                background: url(../../assets/img/arrow-back-white.png) no-repeat center;
+            }
+        </style>
     </body>
 </html>
