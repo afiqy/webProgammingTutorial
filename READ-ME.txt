@@ -1,6 +1,6 @@
-  =>  Template Name    : ProMan - Personal Portfolio HTML Template
+  =>  Template Name    : CaterServ - Catering Services Website Template
 
-  =>  Template Link    : https://htmlcodex.com/personal-portfolio-html-template
+  =>  Template Link    : https://htmlcodex.com/catering-services-website-template
 
   =>  Template License : https://htmlcodex.com/license (or read the LICENSE.txt file)
 
