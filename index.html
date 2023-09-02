@@ -1,55 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-
     <head>
-        <meta charset="utf-8">
-        <title>PEJABAT PENDIDIKAN DAERAH BINTULU</title>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="" name="keywords">
-        <meta content="" name="description">
-
-        <!-- Google Web Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Saira:wght@500;600;700&display=swap" rel="stylesheet"> 
-
-        <!-- Icon Font Stylesheet -->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
-
-        <!-- Libraries Stylesheet -->
-        <link href="lib/animate/animate.min.css" rel="stylesheet">
-        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-
-        <!-- Customized Bootstrap Stylesheet -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-
-        <!-- Template Stylesheet -->
-        <link href="css/style.css" rel="stylesheet">
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Web Progamming Tutorial</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <script>
+            function redirect(location){
+                // console.log("/personal-portfolio/" +location);
+                window.location.href = "/personal-portfolio/" +location;
+            }
+        </script>
     </head>
-
-    <body>
-        <!-- Spinner Start -->
-        <div id="spinner" class="show position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-            <div class="spinner-grow text-primary" role="status"></div>
-        </div>
-        <!-- Spinner End -->
-
-        <!-- Topbar Start -->
-        <div class="container-fluid bg-dark py-2 d-none d-md-flex">
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
             <div class="container">
-                <div class="d-flex justify-content-between topbar">
-                    <div class="top-info">
-                        <small class="me-3 text-white-50"><a href="#"><i class="fas fa-map-marker-alt me-2 text-secondary"></i></a>KM5 Jalan Sultan Iskandar, 97000 Bintulu</small>
-                        <small class="me-3 text-white-50"><a href="#"><i class="fas fa-envelope me-2 text-secondary"></i></a>ppdbintulu@moe.gov.my</small>
-                    </div>
-                    <div id="note" class="text-secondary d-none d-xl-flex"><small>Waktu Operasi : 08.00 pagi - 05.00 petang</small></div>
-                    <div class="top-link">
-                        <a href="" class="bg-light nav-fill btn btn-sm-square rounded-circle"><i class="fab fa-facebook-f text-primary"></i></a>
-                        <a href="" class="bg-light nav-fill btn btn-sm-square rounded-circle"><i class="fab fa-twitter text-primary"></i></a>
-                        <a href="" class="bg-light nav-fill btn btn-sm-square rounded-circle"><i class="fab fa-instagram text-primary"></i></a>
-                        <a href="" class="bg-light nav-fill btn btn-sm-square rounded-circle me-0"><i class="fab fa-linkedin-in text-primary"></i></a>
-                    </div>
+                <a class="navbar-brand" href="#page-top">Web Programming Tutorial</a>
+                <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded text-size-small" href="#portfolio">Personal Portfolio</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded text-size-small" href="#about">Company Portfolio Template</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded text-size-small" href="#contact">Company Portfolio Submisssion</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -58,49 +45,31 @@
         <!-- Navbar Start -->
         <div class="container-fluid bg-primary">
             <div class="container">
-                <nav class="navbar navbar-dark navbar-expand-lg py-0">
-                    <a href="index.html" class="navbar-brand">
-                        <h1 class="text-white fw-bold d-block">PPD<span class="text-secondary">Bintulu</span> </h1>
-                    </a>
-                    <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse bg-transparent" id="navbarCollapse">
-                        <div class="navbar-nav ms-auto mx-xl-auto p-0">
-                            <a href="index.html" class="nav-item nav-link active text-secondary">Laman Utama</a>
-                            <a href="about.html" class="nav-item nav-link">Tentang Kami</a>
-                            <a href="service.html" class="nav-item nav-link">Perkhidmatan</a>
-                            <a href="project.html" class="nav-item nav-link">Hubungi Kami</a>
-                            <div class="nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Profil Jabatan</a>
-                                <div class="dropdown-menu rounded">
-                                    <a href="blog.html" class="dropdown-item">Sektor Perancangan</a>
-                                    <a href="team.html" class="dropdown-item">Sektor Pembelajaran</a>
-                                    <a href="testimonial.html" class="dropdown-item">Sektor Pengurusan Sekolah</a>
-                                    <a href="testimonial.html" class="dropdown-item">Sektor Pembangunan Murid</a>
-                                    <a href="testimonial.html" class="dropdown-item">Sektor Psikologi Dan Kaunseling</a>
-                                    <a href="testimonial.html" class="dropdown-item">Sektor Pentaksiran Dan Peperiksaan</a>
-                                    <a href="testimonial.html" class="dropdown-item">Sektor Pengurusan</a>
-                                </div>
+                <!-- Portfolio Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Personal Portfolio</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Grid Items-->
+                <div class="row justify-content-center">
+                    <!-- Portfolio Item 1-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" onclick="redirect('aswan-portfolio');">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-eye fa-3x"></i></div>
                             </div>
-                            <a href="contact.html" class="nav-item nav-link">Hubungi</a>
                         </div>
                     </div>
-                    <div class="d-none d-xl-flex flex-shirink-0">
-                        <div id="phone-tada" class="d-flex align-items-center justify-content-center me-4">
-                            <a href="" class="position-relative animated tada infinite">
-                                <i class="fa fa-phone-alt text-white fa-2x"></i>
-                                <div class="position-absolute" style="top: -7px; left: 20px;">
-                                    <span><i class="fa fa-comment-dots text-secondary"></i></span>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="d-flex flex-column pe-4 border-end">
-                            <span class="text-white-50">Sebarang Pertanyaan</span>
-                            <span class="text-secondary">086-331627</span>
-                        </div>
-                        <div class="d-flex align-items-center justify-content-center ms-4 ">
-                            <a href="#"><i class="bi bi-search text-white fa-2x"></i> </a>
+                    <!-- Portfolio Item 2-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" onclick="redirect('madelina-portfolio');">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-eye fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/madelina.png" alt="..." />
                         </div>
                     </div>
                 </nav>
@@ -117,28 +86,26 @@
                 </ol>
                 <div class="carousel-inner" role="listbox">
                     <div class="carousel-item active">
-                        <img src="img/Untitled design (3).png" class="img-fluid" alt="First slide">
+                        <img src="img/carousel-1.jpg" class="img-fluid" alt="First slide">
                         <div class="carousel-caption">
                             <div class="container carousel-content">
-                                <h6 class="text-secondary h4 animated fadeInUp">Selamat Datang</h6>
-                                <h1 class="text-white display-1 mb-4 animated fadeInRight">PEJABAT PENDIDIKAN DAERAH BINTULU</h1>
-                                <p class="mb-4 text-white fs-5 animated fadeInDown">Bintulu Education Synergy Team</p>
-                                <p class="mb-4 text-white fs-5 animated fadeInDown">BEST</p>
-                                <a href="" class="me-2"><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn1 animated fadeInLeft">Selanjutnya</button></a>
-                                <a href="" class="ms-2"><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn2 animated fadeInRight">Hubungi Kami</button></a>
+                                <h6 class="text-secondary h4 animated fadeInUp">Hello, welcome to</h6>
+                                <h1 class="text-white display-1 mb-4 animated fadeInRight">Pejabat Pendidikan Daerah Bintulu</h1>
+                                <p class="mb-4 text-white fs-5 animated fadeInDown">KM5 JALAN SULTAN ISKANDAR, 97000 BINTULU SARAWAK
+                                </p>
+                                <a href="" class="me-2"><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn1 animated fadeInLeft">Read More</button></a>
+                                <a href="" class="ms-2"><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn2 animated fadeInRight">Contact Us</button></a>
                             </div>
+                            <img class="img-fluid" src="assets/img/portfolio/khaidzir.png" alt="..." />
                         </div>
                     </div>
-                    <div class="carousel-item">
-                        <img src="img/CGU.png" class="img-fluid" alt="Second slide">
-                        <div class="carousel-caption">
-                            <div class="container carousel-content">
-                                <h6 class="text-secondary h4 animated fadeInUp">CIKGU SAMRI BIN SUHAILI</h6>
-                                <h1 class="text-white display-1 mb-4 animated fadeInLeft">PEGAWAI PENDIDIKAN DAERAH BINTULU</h1>
-                                <p class="mb-4 text-white fs-5 animated fadeInDown">PEJABAT PENDIDIKAN DAERAH BINTULU</p>
-                                <a href="" class="me-2"><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn1 animated fadeInLeft">Selanjutnya</button></a>
-                                <a href="" class="ms-2"><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn2 animated fadeInRight">Hubungi Kami</button></a>
+                    <!-- Portfolio Item 4-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" onclick="redirect('saiful-portfolio');">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-eye fa-3x"></i></div>
                             </div>
+                            <img class="img-fluid" src="assets/img/portfolio/saiful.png" alt="..." />
                         </div>
                     </div>
                 </div>
@@ -161,26 +128,26 @@
                 <div class="row">
                     <div class="col-lg-3 wow fadeIn" data-wow-delay=".1s">
                         <div class="d-flex counter">
-                            <h1 class="me-3 text-primary counter-value">06</h1>
-                            <h5 class="text-white mt-1">Sekolah Menengah di Bintulu</h5>
+                            <h1 class="me-3 text-primary counter-value">99</h1>
+                            <h5 class="text-white mt-1">Success in getting happy customer</h5>
                         </div>
                     </div>
                     <div class="col-lg-3 wow fadeIn" data-wow-delay=".3s">
                         <div class="d-flex counter">
-                            <h1 class="me-3 text-primary counter-value">26</h1>
-                            <h5 class="text-white mt-1">Sekolah Rendah di Bintulu</h5>
+                            <h1 class="me-3 text-primary counter-value">25</h1>
+                            <h5 class="text-white mt-1">Thousands of successful business</h5>
                         </div>
                     </div>
                     <div class="col-lg-3 wow fadeIn" data-wow-delay=".5s">
                         <div class="d-flex counter">
-                            <h1 class="me-3 text-primary counter-value">5</h1>
-                            <h5 class="text-white mt-1">PPKI Sekolah Rendah</h5>
+                            <h1 class="me-3 text-primary counter-value">120</h1>
+                            <h5 class="text-white mt-1">Total clients who love HighTech</h5>
                         </div>
                     </div>
                     <div class="col-lg-3 wow fadeIn" data-wow-delay=".7s">
                         <div class="d-flex counter">
-                            <h1 class="me-3 text-primary counter-value">2</h1>
-                            <h5 class="text-white mt-1">PPKI sekolah Rendah</h5>
+                            <h1 class="me-3 text-primary counter-value">5</h1>
+                            <h5 class="text-white mt-1">Stars reviews given by satisfied clients</h5>
                         </div>
                     </div>
                 </div>
@@ -195,82 +162,47 @@
                 <div class="row g-5">
                     <div class="col-lg-5 col-md-6 col-sm-12 wow fadeIn" data-wow-delay=".3s">
                         <div class="h-100 position-relative">
-                            <img src="img/image1 (3).jpeg" class="img-fluid w-75 rounded" alt="" style="margin-bottom: 25%;">
+                            <img src="img/about-1.jpg" class="img-fluid w-75 rounded" alt="" style="margin-bottom: 25%;">
                             <div class="position-absolute w-75" style="top: 25%; left: 25%;">
-                                <img src="img/image0 (6).jpeg" class="img-fluid w-100 rounded" alt="">
+                                <img src="img/about-2.jpg" class="img-fluid w-100 rounded" alt="">
                             </div>
+                            <img class="img-fluid" src="assets/img/portfolio/is.png" alt="..." />
                         </div>
                     </div>
-                    <div class="col-lg-7 col-md-6 col-sm-12 wow fadeIn" data-wow-delay=".5s">
-                        <h5 class="text-primary">Tentang Kami</h5>
-                        <h1 class="mb-4">PEJABAT PENDIDIKAN DAERAH BINTULU</h1>
-                        <p>Pejabat Pendidikan Daerah Bintulu terletak di Jln Sultan Iskandar, Kampung Baru Bintulu, 97000 Bintulu, Sarawak, Malaysia, berhampiran tempat ini: Pejabat Mara (1 km), Pejabat PERBINDA Perbandaraan (BDA) (1 km), Wisma Bintulu (2 km), Jabatan Pendaftaran Bintulu (3 km), Jabatan Tenaga Kerja Bintulu (3 km).
-
-                            Untuk menentukan jadual kerja, adalah mungkin untuk telefon yang ditentukan: + 60 86-331 627.</p>
-                        <p class="mb-4">Untuk mempunyai pandangan yang lebih baik tentang lokasi "Pejabat Pendidikan Daerah Bintulu", perhatikan jalan-jalan yang terletak berhampiran: Jalan Tun Razak, Jalan Sultan Iskandar, Jalan Bintulu - Tatau, Jalan Kidurong, Jalan Tun Hussein Onn, Jln Kuini, Jln Bungaraya, Bintulu Sentral, Jalan Kasturi, Jalan Nyabau. Untuk maklumat lanjut tentang cara untuk sampai ke tempat yang ditentukan, anda boleh mengetahui pada peta yang dipaparkan di bahagian bawah halaman.</p>
-                        <a href="" class="btn btn-secondary rounded-pill px-5 py-3 text-white">Selanjutnya</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- About End -->
-
-
-        <!-- Services Start 
-        <div class="container-fluid services py-5 mb-5">
-            <div class="container">
-                <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
-                    <h5 class="text-primary">Perkhidmatan</h5>
-                    <h1></h1>
-                </div>
-                <div class="row g-5 services-inner">
-                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
-                        <div class="services-item bg-light">
-                            <div class="p-4 text-center services-content">
-                                <div class="services-content-icon">
-                                    <i class="fa fa-code fa-7x mb-4 text-primary"></i>
-                                    <h4 class="mb-3"></h4>
-                                    <p class="mb-4"></p>
-                                    <a href="" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a>
-                                </div>
+                    <!-- Portfolio Item 6-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" onclick="redirect('maziah-portfolio');">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-eye fa-3x"></i></div>
                             </div>
+                            <img class="img-fluid" src="assets/img/portfolio/maziah.png" alt="..." />
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".5s">
-                        <div class="services-item bg-light">
-                            <div class="p-4 text-center services-content">
-                                <div class="services-content-icon">
-                                    <i class="fa fa-file-code fa-7x mb-4 text-primary"></i>
-                                    <h4 class="mb-3"></h4>
-                                    <p class="mb-4"></p>
-                                    <a href="" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Selanjutnya</a>
-                                </div>
+                    <!-- Portfolio Item 7-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" onclick="redirect('naim_portfolio');">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-eye fa-3x"></i></div>
                             </div>
+                            <img class="img-fluid" src="assets/img/portfolio/naim.png" alt="..." />
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
-                        <div class="services-item bg-light">
-                            <div class="p-4 text-center services-content">
-                                <div class="services-content-icon">
-                                    <i class="fa fa-external-link-alt fa-7x mb-4 text-primary"></i>
-                                    <h4 class="mb-3"></h4>
-                                    <p class="mb-4"></p>
-                                    <a href="" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Selanjutnya</a>
-                                </div>
+                    <!-- Portfolio Item 8-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" onclick="redirect('nizam-portfolio');">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-eye fa-3x"></i></div>
                             </div>
+                            <img class="img-fluid" src="assets/img/portfolio/nizam.png" alt="..." />
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
-                        <div class="services-item bg-light">
-                            <div class="p-4 text-center services-content">
-                                <div class="services-content-icon">
-                                    <i class="fas fa-user-secret fa-7x mb-4 text-primary"></i>
-                                    <h4 class="mb-3"></h4>
-                                    <p class="mb-4"></p>
-                                    <a href="" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a>
-                                </div>
-                                
+                    <!-- Portfolio Item 9-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" onclick="redirect('nur-afisza');">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-eye fa-3x"></i></div>
                             </div>
+                            <img class="img-fluid" src="assets/img/portfolio/afisza.png" alt="..." />
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".5s">
@@ -283,32 +215,31 @@
                                     <a href="" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a>
                                 </div>
                             </div>
+                            <img class="img-fluid" src="assets/img/portfolio/zalikha.png" alt="..." />
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
-                        <div class="services-item bg-light">
-                            <div class="p-4 text-center services-content">
-                                <div class="services-content-icon">
-                                    <i class="fas fa-laptop fa-7x mb-4 text-primary"></i>
-                                    <h4 class="mb-3">Programming</h4>
-                                    <p class="mb-4">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt.</p>
-                                    <a href="" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a>
-                                </div>
+                    <!-- Portfolio Item 11-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" onclick="redirect('sabrina-portfolio');">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-eye fa-3x"></i></div>
                             </div>
+                            <img class="img-fluid" src="assets/img/portfolio/sabrina.png" alt="..." />
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-         Services End -->
-
-
-        <!-- Project Start 
-        <div class="container-fluid project py-5 mb-5">
+        </section>
+        <!-- About Section-->
+        <section class="page-section bg-primary text-white mb-0" id="about">
             <div class="container">
-                <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
-                    <h5 class="text-primary">Our Project</h5>
-                    <h1>Our Recently Completed Projects</h1>
+                <!-- About Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-white">Company Portfolio Template</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
                 </div>
                 <div class="row g-5">
                     <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
@@ -337,18 +268,19 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
-                        <div class="project-item">
-                            <div class="project-img">
-                                <img src="img/project-3.jpg" class="img-fluid w-100 rounded" alt="">
-                                <div class="project-content">
-                                    <a href="#" class="text-center">
-                                        <h4 class="text-secondary">Mobile Info</h4>
-                                        <p class="m-0 text-white">Upcomming Phone</p>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer text-center">
+            <div class="container">
+                <div class="row">
+                    <!-- Footer Location-->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Location</h4>
+                        <p class="lead mb-0">
+                            Pejabat Pendidikan Daerah Bintulu
+                        </p>
                     </div>
                     <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
                         <div class="project-item">
@@ -392,10 +324,10 @@
                 </div>
             </div>
         </div>
-        Project End -->
+        <!-- Project End -->
 
 
-        <!-- Blog Start 
+        <!-- Blog Start -->
         <div class="container-fluid blog py-5 mb-5">
             <div class="container">
                 <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
@@ -499,26 +431,26 @@
                 </div>
             </div>
         </div>
-        Blog End -->
+        <!-- Blog End -->
 
 
         <!-- Team Start -->
         <div class="container-fluid py-5 mb-5 team">
             <div class="container">
                 <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
-                    <h5 class="text-primary">Kumpulan Kami</h5>
-                    <h1>Kenali Kumpulan Kami</h1>
+                    <h5 class="text-primary">Our Team</h5>
+                    <h1>Meet our expert Team</h1>
                 </div>
                 <div class="owl-carousel team-carousel wow fadeIn" data-wow-delay=".5s">
                     <div class="rounded team-item">
                         <div class="team-content">
                             <div class="team-img-icon">
                                 <div class="team-img rounded-circle">
-                                    <img src="img/Aswan 1.png" class="img-fluid w-100 rounded-circle" alt="">
+                                    <img src="img/team-1.jpg" class="img-fluid w-100 rounded-circle" alt="">
                                 </div>
                                 <div class="team-name text-center py-3">
-                                    <h4 class="">Mohammad Noraswan Bin Julis</h4>
-                                    <p class="m-0">Ketua Kumpulan</p>
+                                    <h4 class="">Full Name</h4>
+                                    <p class="m-0">Designation</p>
                                 </div>
                                 <div class="team-icon d-flex justify-content-center pb-4">
                                     <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-facebook-f"></i></a>
@@ -533,11 +465,11 @@
                         <div class="team-content">
                             <div class="team-img-icon">
                                 <div class="team-img rounded-circle">
-                                    <img src="img/Saiful 1.png" class="img-fluid w-100 rounded-circle" alt="">
+                                    <img src="img/team-2.jpg" class="img-fluid w-100 rounded-circle" alt="">
                                 </div>
                                 <div class="team-name text-center py-3">
-                                    <h4 class="">Mohd Saiful Bin Saili</h4>
-                                    <p class="m-0">Penolong Ketua Kumpulan</p>
+                                    <h4 class="">Full Name</h4>
+                                    <p class="m-0">Designation</p>
                                 </div>
                                 <div class="team-icon d-flex justify-content-center pb-4">
                                     <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-facebook-f"></i></a>
@@ -552,11 +484,11 @@
                         <div class="team-content">
                             <div class="team-img-icon">
                                 <div class="team-img rounded-circle">
-                                    <img src="img/Sebarina 1.png" class="img-fluid w-100 rounded-circle" alt="">
+                                    <img src="img/team-3.jpg" class="img-fluid w-100 rounded-circle" alt="">
                                 </div>
                                 <div class="team-name text-center py-3">
-                                    <h4 class="">Sebarina Binti Siji</h4>
-                                    <p class="m-0">Setiausaha</p>
+                                    <h4 class="">Full Name</h4>
+                                    <p class="m-0">Designation</p>
                                 </div>
                                 <div class="team-icon d-flex justify-content-center pb-4">
                                     <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-facebook-f"></i></a>
@@ -571,11 +503,11 @@
                         <div class="team-content">
                             <div class="team-img-icon">
                                 <div class="team-img rounded-circle">
-                                    <img src="img/Madelina 11.png" class="img-fluid w-100 rounded-circle" alt="">
+                                    <img src="img/team-4.jpg" class="img-fluid w-100 rounded-circle" alt="">
                                 </div>
                                 <div class="team-name text-center py-3">
-                                    <h4 class="">Madelina Ngau</h4>
-                                    <p class="m-0">Bendahari</p>
+                                    <h4 class="">Full Name</h4>
+                                    <p class="m-0">Designation</p>
                                 </div>
                                 <div class="team-icon d-flex justify-content-center pb-4">
                                     <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-facebook-f"></i></a>
@@ -591,7 +523,7 @@
         </div>
         <!-- Team End -->
 
-        <!-- Testimonial Start 
+        <!-- Testimonial Start -->
         <div class="container-fluid testimonial py-5 mb-5">
             <div class="container">
                 <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
@@ -679,24 +611,21 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="border-top mt-4 pt-3">
-                            <p class="mb-0">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum aliquam dolor eget urna. Nam volutpat libero sit amet leo cursus, ac viverra eros morbi quis quam mi.</p>
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        Testimonial End -->
+        <!-- Testimonial End -->
 
 
         <!-- Contact Start -->
         <div class="container-fluid py-5 mb-5">
             <div class="container">
                 <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
-                    <h5 class="text-primary"></h5>
-                    <h1 class="mb-3">Hubungi Kami</h1>
-                    <p class="mb-2"> Sebarang pertanyaan sila kunjungi Pejabat Pendidikan Daerah Bintulu di lokasi dibawah atau hubungi kami di talian berikut.<a href="https://htmlcodex.com/contact-form"></a>.</p>
+                    <h5 class="text-primary">Get In Touch</h5>
+                    <h1 class="mb-3">Contact for any query</h1>
+                    <p class="mb-2">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a href="https://htmlcodex.com/contact-form">Download Now</a>.</p>
                 </div>
                 <div class="contact-detail position-relative p-5">
                     <div class="row g-5 mb-5 justify-content-center">
@@ -706,8 +635,8 @@
                                     <i class="fas fa-map-marker-alt text-white"></i>
                                 </div>
                                 <div class="ms-3">
-                                    <h4 class="text-primary">Alamat</h4>
-                                    <a href="https://goo.gl/maps/WMPX2Ewmmdo6EJNe7" target="_blank" class="h5">KM 5, Jalan Sultan Iskandar, 97000 Bintulu</a>
+                                    <h4 class="text-primary">Address</h4>
+                                    <a href="https://goo.gl/maps/Zd4BCynmTb98ivUJ6" target="_blank" class="h5">23 rank Str, NY</a>
                                 </div>
                             </div>
                         </div>
@@ -717,8 +646,8 @@
                                     <i class="fa fa-phone text-white"></i>
                                 </div>
                                 <div class="ms-3">
-                                    <h4 class="text-primary">Hubungi Kami</h4>
-                                    <a class="h5" href="tel:+086331627" target="_blank">086-331627</a>
+                                    <h4 class="text-primary">Call Us</h4>
+                                    <a class="h5" href="tel:+0123456789" target="_blank">+012 3456 7890</a>
                                 </div>
                             </div>
                         </div>
@@ -728,8 +657,8 @@
                                     <i class="fa fa-envelope text-white"></i>
                                 </div>
                                 <div class="ms-3">
-                                    <h4 class="text-primary">Emel</h4>
-                                    <a class="h5" href="mailto:ppdbintulu@moe.gov.my" target="_blank">ppdbintulu@moe.gov.my</a>
+                                    <h4 class="text-primary">Email Us</h4>
+                                    <a class="h5" href="mailto:info@example.com" target="_blank">info@example.com</a>
                                 </div>
                             </div>
                         </div>
@@ -737,31 +666,31 @@
                     <div class="row g-5">
                         <div class="col-lg-6 wow fadeIn" data-wow-delay=".3s">
                             <div class="p-5 h-100 rounded contact-map">
-                                <iframe class="rounded w-100 h-100" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d31868.993633864233!2d113.056349!3d3.193059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x321dc10f6031ae41%3A0xb142ec8eb29539b4!2sPejabat%20Pendidikan%20Daerah%20Bintulu!5e0!3m2!1sms!2sus!4v1693361745650!5m2!1sms!2sus" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                <iframe class="rounded w-100 h-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3025.4710403339755!2d-73.82241512404069!3d40.685622471397615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c26749046ee14f%3A0xea672968476d962c!2s123rd%20St%2C%20Queens%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1686493221834!5m2!1sen!2sbd" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </div>
                         </div>
                         <div class="col-lg-6 wow fadeIn" data-wow-delay=".5s">
                             <div class="p-5 rounded contact-form">
                                 <div class="mb-4">
-                                    <input type="text" class="form-control border-0 py-3" placeholder="Nama Penuh">
+                                    <input type="text" class="form-control border-0 py-3" placeholder="Your Name">
                                 </div>
                                 <div class="mb-4">
-                                    <input type="email" class="form-control border-0 py-3" placeholder="Alamat Emel">
+                                    <input type="email" class="form-control border-0 py-3" placeholder="Your Email">
                                 </div>
                                 <div class="mb-4">
-                                    <input type="text" class="form-control border-0 py-3" placeholder="No Telefon">
+                                    <input type="text" class="form-control border-0 py-3" placeholder="Project">
                                 </div>
                                 <div class="mb-4">
-                                    <textarea class="w-100 form-control border-0 py-3" rows="6" cols="10" placeholder="Mesej"></textarea>
+                                    <textarea class="w-100 form-control border-0 py-3" rows="6" cols="10" placeholder="Message"></textarea>
                                 </div>
                                 <div class="text-start">
-                                    <button class="btn bg-primary text-white py-3 px-5" type="button">Hantar Mesej</button>
+                                    <button class="btn bg-primary text-white py-3 px-5" type="button">Send Message</button>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div> 
+            </div>
         </div>
         <!-- Contact End -->
 
@@ -772,9 +701,9 @@
                 <div class="row g-5">
                     <div class="col-lg-3 col-md-6">
                         <a href="index.html">
-                            <h1 class="text-white fw-bold d-block">PPD<span class="text-secondary">Bintulu</span> </h1>
+                            <h1 class="text-white fw-bold d-block">High<span class="text-secondary">Tech</span> </h1>
                         </a>
-                        <p class="mt-4 text-light">Terletak di Kilometer 5 Jalan Sultan Iskandar</p>
+                        <p class="mt-4 text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta facere delectus qui placeat inventore consectetur repellendus optio debitis.</p>
                         <div class="d-flex hightech-link">
                             <a href="" class="btn-light nav-fill btn btn-square rounded-circle me-2"><i class="fab fa-facebook-f text-primary"></i></a>
                             <a href="" class="btn-light nav-fill btn btn-square rounded-circle me-2"><i class="fab fa-twitter text-primary"></i></a>
@@ -783,42 +712,42 @@
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
-                        <a href="#" class="h3 text-secondary"></a>
+                        <a href="#" class="h3 text-secondary">Short Link</a>
                         <div class="mt-4 d-flex flex-column short-link">
-                            <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i></a>
-                            <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i></a>
-                            <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i></a>
-                            <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i></a>
-                            <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i></a>
+                            <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>About us</a>
+                            <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Contact us</a>
+                            <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Our Services</a>
+                            <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Our Projects</a>
+                            <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Latest Blog</a>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
-                        <a href="#" class="h3 text-secondary"></a>
+                        <a href="#" class="h3 text-secondary">Help Link</a>
                         <div class="mt-4 d-flex flex-column help-link">
-                            <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i></a>
-                            <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i></a>
-                            <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i></a>
-                            <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i></a>
-                            <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i></a>
+                            <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Terms Of use</a>
+                            <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Privacy Policy</a>
+                            <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Helps</a>
+                            <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>FQAs</a>
+                            <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Contact</a>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
-                        <a href="#" class="h3 text-secondary"></a>
+                        <a href="#" class="h3 text-secondary">Contact Us</a>
                         <div class="text-white mt-4 d-flex flex-column contact-link">
-                            <a href="#" class="pb-3 text-light border-bottom border-primary"><i class="fas fa-map-marker-alt text-secondary me-2"></i>KM 5, Jalan Sultan Iskandar</a>
-                            <a href="#" class="py-3 text-light border-bottom border-primary"><i class="fas fa-phone-alt text-secondary me-2"></i>086-331 627</a>
-                            <a href="#" class="py-3 text-light border-bottom border-primary"><i class="fas fa-envelope text-secondary me-2"></i>ppdbintulu@moe.gov.my</a>
+                            <a href="#" class="pb-3 text-light border-bottom border-primary"><i class="fas fa-map-marker-alt text-secondary me-2"></i> 123 Street, New York, USA</a>
+                            <a href="#" class="py-3 text-light border-bottom border-primary"><i class="fas fa-phone-alt text-secondary me-2"></i> +123 456 7890</a>
+                            <a href="#" class="py-3 text-light border-bottom border-primary"><i class="fas fa-envelope text-secondary me-2"></i> info@exmple.con</a>
                         </div>
                     </div>
                 </div>
                 <hr class="text-light mt-5 mb-4">
                 <div class="row">
                     <div class="col-md-6 text-center text-md-start">
-                        <span class="text-light"><a href="#" class="text-secondary"><i class="fas fa-copyright text-secondary me-2"></i>ppdbintulu</a></span>
+                        <span class="text-light"><a href="#" class="text-secondary"><i class="fas fa-copyright text-secondary me-2"></i>Your Site Name</a>, All right reserved.</span>
                     </div>
                     <div class="col-md-6 text-center text-md-end">
                         <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                        <span class="text-light">Hak Cipta<a href="https://htmlcodex.com" class="text-secondary">Team Satu Bersatu</a></span>
+                        <span class="text-light">Designed By<a href="https://htmlcodex.com" class="text-secondary">HTML Codex</a></span>
                     </div>
                 </div>
             </div>
@@ -841,5 +770,4 @@
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
     </body>
-
 </html>
